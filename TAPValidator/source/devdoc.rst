@@ -10,7 +10,9 @@ For further insight into modules operation see the interfaces javadoc and progra
 Structure diagram
 --------------------
 
-.. image:: img/validator_diag.png
+.. figure:: img/validator_diag.png
+
+	TAPValidator modules diagram
 
 TAPValidator constists of the following functional blocks:
 

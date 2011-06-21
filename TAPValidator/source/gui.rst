@@ -14,26 +14,26 @@ Iterate until documents are validating without errors.
 * Main TAPValidator window
 	
 
-.. image:: img/main_labelled.png
+.. figure:: img/main_labelled.png
+	
+	Main window
 
-Main window
 
+Most of the time you will be using the main window.
 
-	Most of the time you will be using the main window.
-	
-	It has several important areas:
-	
-	#. :ref:`menu`
-	
-	#. :ref:`keywords`
-	
-	#. :ref:`document`
-	
-	#. :ref:`locator`
-	
-	#. :ref:`status`
-	
-	#. :ref:`validation`
+It has several important areas:
+
+#. :ref:`menu`
+
+#. :ref:`keywords`
+
+#. :ref:`document`
+
+#. :ref:`locator`
+
+#. :ref:`status`
+
+#. :ref:`validation`
 	
 .. _menu:
 
@@ -113,7 +113,9 @@ VAMDC-XSAMS Document
 Blocks locator
 -----------------
 	
-	.. image:: img/locator_labelled.png
+	.. figure:: img/locator_labelled.png
+		
+		Block locator panel functions
 	
 	Locator panel allows quick browsing through document sections.
 	

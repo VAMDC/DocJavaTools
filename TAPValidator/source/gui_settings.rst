@@ -14,8 +14,9 @@ Configuration
 	
 
 
-.. image:: img/settings.png
-
+	.. figure:: img/settings.png
+	
+		Settings window
 
 .. _settingsLocal:
 

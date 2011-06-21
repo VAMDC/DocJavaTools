@@ -4,10 +4,7 @@
    contain the root `toctree` directive.
 
 VAMDC-TAP service validation tool documentation
-================================================
-
-Introduction
-------------
+-------------------------------------------------
 
 TAPValidator is an application that simplifies the development and verification of TAP-VAMDC services.
 	
