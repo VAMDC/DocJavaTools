@@ -74,7 +74,7 @@ Network settings
 	* TAP URL suffix
 		**EXPERT OPTION**
 		In this field you may modify TAP URL suffix. That is a part, defined by TAP-VAMDC service specification.
-		Default value should work, so do mot change it unless specifically instructed by node software provider 
+		Default value should work, so do not change it unless specifically instructed by node software provider 
 		or revised standard specification.
 		
 	* Input pretty-printing
