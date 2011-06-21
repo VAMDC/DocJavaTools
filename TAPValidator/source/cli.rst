@@ -65,7 +65,7 @@ make sure that output directory doesn't contain files from previous run.
 Report file format
 --------------------
 
-TAPValidator generates reports in it's own XML format, defined by report.xsd schema.
+TAPValidator generates reports in its own XML format, defined by report.xsd schema.
 Report documents look like::
 	
 	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
