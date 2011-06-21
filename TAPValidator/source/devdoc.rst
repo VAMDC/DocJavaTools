@@ -3,7 +3,7 @@
 TAPValidator developer documentation
 =======================================
 
-This section describes the TAPValidator structure diagram, modules interaction, packages
+This section describes the TAPValidator structure diagram, interaction of modules, packages.  
 For further insight into modules operation see the interfaces javadoc and program sources.
 
 
@@ -130,7 +130,7 @@ are saved in the same folder.
 GUI operation
 ++++++++++++++
 
-GUI is implemented in *org.vamdc.validator.gui.MainFrame* and it's controller.
+GUI is implemented in *org.vamdc.validator.gui.MainFrame* and its controller.
 Most of the main window panels are implemented in separate classes.
 
 When initialized, GUI asks the IO controller for a list of restrictables, supported by selected source, displays it and
