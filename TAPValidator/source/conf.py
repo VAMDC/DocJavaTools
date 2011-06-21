@@ -91,7 +91,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+html_theme = 'sphinxdoc'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -170,7 +170,7 @@ htmlhelp_basename = 'TAPValidatordoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
+latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
 #latex_font_size = '10pt'
@@ -182,9 +182,21 @@ latex_documents = [
    u'Misha Doronin', 'manual'),
 ]
 
+f = open('_templates/documentTemplate.tex', 'r+')
+
+PREAMBLE = f.read()
+
+latex_elements = {
+	'papersize': 'a4paper',
+	'classoptions': ',oneside',
+	'babel': '\\usepackage[english]{babel}',
+	'preamble': PREAMBLE
+}
+
+
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = 'img/logos.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

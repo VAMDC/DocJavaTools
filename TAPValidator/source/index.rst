@@ -6,17 +6,6 @@
 Welcome to TAPValidator's documentation!
 ========================================
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-   
-   gui
-   gui_settings
-   cli
-   devdoc
-
-
 TAPValidator is an application that simplifies the development and verification of TAP-VAMDC services.
 	
 	XSAMS documents can be sourced from:
@@ -30,6 +19,17 @@ TAPValidator is an application that simplifies the development and verification 
 	Application supports both :ref:`gui` and :ref:`cli` operation.
 	In command-line mode document validation results are saved in specific XML format, 
 	defined by the report.xsd schema, provided in sources.
+
+.. toctree::
+   :maxdepth: 2
+   
+   gui
+   gui_settings
+   cli
+   devdoc
+
+
+
 
 
 

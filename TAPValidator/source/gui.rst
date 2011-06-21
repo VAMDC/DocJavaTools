@@ -23,17 +23,17 @@ Main window
 	
 	It has several important areas:
 	
-	# :ref:`menu`
+	#. :ref:`menu`
 	
-	# :ref:`keywords`
+	#. :ref:`keywords`
 	
-	# :ref:`document`
+	#. :ref:`document`
 	
-	# :ref:`locator`
+	#. :ref:`locator`
 	
-	# :ref:`status`
+	#. :ref:`status`
 	
-	# :ref:`validation`
+	#. :ref:`validation`
 	
 .. _menu:
 
@@ -117,15 +117,15 @@ Blocks locator
 	
 	Locator panel allows to quickly browse through document sections.
 	
-	# Active section indicates that this was the last read/last seeked section.
+	#. Active section indicates that this was the last read/last seeked section.
 		
 		Activate any inactive section to jump to current block index of that type.
 	
-	# Block index selector.
+	#. Block index selector.
 		
 		Allows to jump to a block with selected number in order.
 		
-	# Jump to next block button
+	#. Jump to next block button
 		
 		Pressing that button would move you to the next block of that type starting from the current position in XSAMS document.
 		If no blocks of this type are present latter in document, you will be directed to the first block of that type.
