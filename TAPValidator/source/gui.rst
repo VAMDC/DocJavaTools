@@ -5,9 +5,9 @@ Graphical user interface
 	
 By default, TAPValidator starts in graphical mode.
 	
-When first run, it's necessary to modify the :ref:`settings`.
+When first run, it is necessary to modify the configuration settings.  See :ref:`settings`.
 
-Then usual operation would be to do several queries on the node (network/plugin) and, if an errors occurs, modify node software code.
+Then, the usual operation would be to do several queries on the node (network/plugin) and, if an errors occurs, modify node software code.
 Iterate until documents are validating without errors.
 	
 	
@@ -69,7 +69,7 @@ Menu
 	
 		* About
 		
-	Each menu item has it's own shortcut keys combination.
+	Each menu item has its own shortcut keys combination.
 	
 	You may load or save files while working in any operation mode.
 	
@@ -97,15 +97,15 @@ Restrictables keywords
 
 .. _document:
 
-XSAMS Document
+VAMDC-XSAMS Document
 -----------------
 
-	This panel holds XSAMS document, opened from file or returned by node.
+	This panel holds the VAMDC-XSAMS document, opened from file or returned by node.
 	
 	Double-click on a line centers on it.
 	
-	Located blocks and search results are backlit by gray color,
-	elements with validation errors are backlit with red.
+	Located blocks and search results are highlighted by gray color,
+	elements with validation errors are highlighted with red.
 	
 
 .. _locator:
@@ -115,7 +115,7 @@ Blocks locator
 	
 	.. image:: img/locator_labelled.png
 	
-	Locator panel allows to quickly browse through document sections.
+	Locator panel allows quick browsing through document sections.
 	
 	#. Active section indicates that this was the last read/last seeked section.
 		
@@ -127,7 +127,7 @@ Blocks locator
 		
 	#. Jump to next block button
 		
-		Pressing that button would move you to the next block of that type starting from the current position in XSAMS document.
+		Pressing that button would move you to the next block of that type starting from the current position in VAMDC-XSAMS document.
 		If no blocks of this type are present latter in document, you will be directed to the first block of that type.
 		
 	

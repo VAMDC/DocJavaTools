@@ -48,7 +48,7 @@ Local Settings
 		
 		Double-click on the field to open directory choice dialog.
 		
-		When filled, field is validated to check if specified directory exists and is writeable.
+		When filled, field is validated to check if specified directory exists and the user has write premissions.
 		
 
 .. _settingsNet:
@@ -69,12 +69,12 @@ Network settings
 		If for some reason TAP endpoint url reported in your service capabilities is inaccessible,
 		you may specify it in this field.
 		
-		**WARNING:** To make program work with this endpoint, you need to erase everything from "Capabilities endpoint" field.
+		**WARNING:** To make program work with this endpoint, you need to erase everything from the "Capabilities endpoint" field.
 		
 	* TAP URL suffix
 		**EXPERT OPTION**
-		In this field you may modify TAP url suffix. That is a part, defined by TAP-VAMDC service specification.
-		Default value should work, so don't change it unless specifically instructed by node software provider 
+		In this field you may modify TAP URL suffix. That is a part, defined by TAP-VAMDC service specification.
+		Default value should work, so do mot change it unless specifically instructed by node software provider 
 		or revised standard specification.
 		
 	* Input pretty-printing
@@ -123,4 +123,4 @@ Control buttons
 	* Save
 		Save modified configuration. Will display an error if something went wrong while applying new configuration.
 		
-		**WARNING:** For configuration to take effect, it is necessary to press the save button, closing window wont' apply it.
+		**WARNING:** For configuration to take effect, it is necessary to press the save button, closing the window will not apply the changes.
