@@ -7,12 +7,11 @@ To use TAPValidator in automated tests of TAP-VAMDC nodes, command-line mode can
 	
 To get full list of supported options, call program with "-h" option::
 
-	$ java -jar target/TAPValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar -h
+	$ java -jar target/TAPValidator-12.07.jar -h
 
 You will get a list of options with their descriptions, like::
 	
-
-	Usage: prog [options]
+	Usage: prog [options] [filename1.xsams]...[filenameN.xsams]
 	Available options:
 	-u, --tap_url  "value" : TAP-VAMDC service TAP endpoint URL
 		e.g. -u http://service:port/TAP/
@@ -49,12 +48,17 @@ option -q in GUI mode has no effect.
 If option is specified in GUI mode, it overrides the specific setting, so, for example, 
 multiple instances of validator may be called simultaneously to test several services and compare results.
 
+XSAMS document location may be passed as the last parameter. It will be validated in gui or command-line mode depending
+on presence of **-o** option.
 
 Command-line operation
 -------------------------
 
-To initiate command-line mode, you need to specify output directory for resulting documents and reports 
-and at least one query.
+To initiate command-line mode, you must specify output directory for resulting documents and reports.
+
+If capabilities endpoint is not specified, it will be taken from the program settings.
+
+If no queries are specified, TAPValidator tries to validate all node sample queries.
 	
 For each query validator saves document it got from service, in filename xsams(N).xml and validation report for it in
 report(N).xml, where N is an incrementing index, starting from 0 on each run.

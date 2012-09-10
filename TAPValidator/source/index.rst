@@ -23,6 +23,7 @@ TAPValidator is an application that simplifies the development and verification 
 .. toctree::
    :maxdepth: 2
    
+   changelog
    gui
    gui_settings
    cli
