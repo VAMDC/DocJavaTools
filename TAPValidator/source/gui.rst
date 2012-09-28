@@ -7,7 +7,7 @@ By default, TAPValidator starts in graphical mode.
 	
 When first run, it is necessary to modify the configuration settings.  See :ref:`settings`.
 
-Then, the usual operation would be to do several queries on the node (network/plugin) and, if an errors occurs, modify node software code.
+Then, the usual operation would be to do several queries on the node (network/plugin) and, if any errors occur, modify node software code.
 Iterate until documents are validating without errors.
 	
 	
@@ -51,7 +51,13 @@ Menu
 	
 		* Open
 		
+		* Open URL
+		
+		* Reload
+		
 		* Save
+		
+		* Save report
 		
 		* Exit
 		
@@ -65,6 +71,8 @@ Menu
 	
 		* Configure
 		
+		* Console
+		
 	* Help
 	
 		* About
@@ -76,13 +84,19 @@ Menu
 Query
 +++++++
 
-	Query panel has a selector with last 10 successful queries, Query, Stop buttons and progress indicator.
+	Query panel has a selector with recent query history, Preview, Query, Stop buttons and a progress indicator.
+	
+	Query history selector items list contains as the last elements node's own sample queries.
+	
+	Preview button sends HEAD request, displaying reported count header values.
+	
+	Query button submits the query for actual data retrieval.
 	
 	Since document size is unknown during download, progress indicator just steps every 5000 lines of incoming XML document
 	and gets full when document is fully loaded and processed.
 	
-	If any error occurs during query, error message appears, then stack trace is printed to the stdout for the detailed information.
-	
+	Any problem occured during the query will be indicated with popup messages. Detalied information and warnings are printed to 
+	Console log.
 
 .. _keywords:
 
@@ -93,6 +107,7 @@ Restrictables keywords
 	
 	Double-click on a line will add corresponding keyword to the end of query string.
 	
+	Keywords highlighted gray are the non-standard keywords, missing from the official keywords dictionary.
 
 
 .. _document:
@@ -100,12 +115,14 @@ Restrictables keywords
 VAMDC-XSAMS Document
 -----------------
 
-	This panel holds the VAMDC-XSAMS document, opened from file or returned by node.
+	This panel holds the VAMDC-XSAMS document, opened from file, url or returned by node.
 	
 	Double-click on a line centers on it.
 	
+	Files and URLs to XSAMS files can be dropped to that field, it enables opening local files or remote documents by URL.
+	
 	Located blocks and search results are highlighted by gray color,
-	elements with validation errors are highlighted with red.
+	validation errors are highlighted with red.
 	
 
 .. _locator:
@@ -150,3 +167,4 @@ Validation panel
 	For each of the validation errors displays position in document and error description.
 	
 	Double-click on any line will scroll XSAMS document to selected error and highlight element that contains error.
+	Error text and block contents are copied to clipboard at that time.

@@ -26,6 +26,7 @@ TAPValidator is an application that simplifies the development and verification 
    changelog
    gui
    gui_settings
+   testing
    cli
    devdoc
 
